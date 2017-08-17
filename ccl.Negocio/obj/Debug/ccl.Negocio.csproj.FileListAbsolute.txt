@@ -1,0 +1,8 @@
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Negocio\obj\Debug\ccl.Negocio.csprojResolveAssemblyReference.cache
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Negocio\bin\Debug\ccl.Negocio.dll
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Negocio\bin\Debug\ccl.Negocio.pdb
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Negocio\bin\Debug\ccl.Datos.dll
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Negocio\bin\Debug\ccl.Datos.pdb
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Negocio\obj\Debug\ccl.Negocio.dll
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Negocio\obj\Debug\ccl.Negocio.pdb
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Negocio\bin\Debug\ccl.Datos.dll.config

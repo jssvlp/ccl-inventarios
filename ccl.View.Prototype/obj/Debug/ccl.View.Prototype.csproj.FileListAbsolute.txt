@@ -1,0 +1,11 @@
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.View.Prototype\bin\Debug\ccl.View.Prototype.exe.config
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.View.Prototype\bin\Debug\ccl.View.Prototype.exe
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.View.Prototype\bin\Debug\ccl.View.Prototype.pdb
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.View.Prototype\obj\Debug\ccl.View.Prototype.csprojResolveAssemblyReference.cache
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.View.Prototype\obj\Debug\ccl.View.Prototype.Form1.resources
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.View.Prototype\obj\Debug\ccl.View.Prototype.Properties.Resources.resources
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.View.Prototype\obj\Debug\ccl.View.Prototype.csproj.GenerateResource.Cache
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.View.Prototype\obj\Debug\ccl.View.Prototype.exe
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.View.Prototype\obj\Debug\ccl.View.Prototype.pdb
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.View.Prototype\obj\Debug\ccl.View.Prototype.Cliente.resources
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.View.Prototype\obj\Debug\ccl.View.Prototype.Colmado.resources

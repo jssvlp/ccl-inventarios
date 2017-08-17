@@ -1,0 +1,12 @@
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.View\bin\Debug\ccl.View.exe.config
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.View\bin\Debug\ccl.View.exe
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.View\bin\Debug\ccl.View.pdb
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.View\bin\Debug\ccl.Negocio.dll
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.View\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.View\bin\Debug\ccl.Negocio.pdb
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.View\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.View\obj\Debug\ccl.View.csprojResolveAssemblyReference.cache
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.View\obj\Debug\ccl.View.Properties.Resources.resources
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.View\obj\Debug\ccl.View.csproj.GenerateResource.Cache
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.View\obj\Debug\ccl.View.exe
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.View\obj\Debug\ccl.View.pdb

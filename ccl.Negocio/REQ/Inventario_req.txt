@@ -1,0 +1,2 @@
+﻿*Para poder contabilizar las en un inventario actual se debe tener las ventas del periodo
+contable anterior monto que debe restarsele a las ventas del inventario anterior. [CREO]

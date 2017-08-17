@@ -1,0 +1,11 @@
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Test.Console\bin\Debug\ccl.Test.Console.exe.config
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Test.Console\bin\Debug\ccl.Test.Console.exe
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Test.Console\bin\Debug\ccl.Test.Console.pdb
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Test.Console\bin\Debug\ccl.Datos.dll
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Test.Console\bin\Debug\ccl.Negocio.dll
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Test.Console\bin\Debug\ccl.Datos.pdb
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Test.Console\bin\Debug\ccl.Negocio.pdb
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Test.Console\obj\Debug\ccl.Test.Consol.csprojResolveAssemblyReference.cache
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Test.Console\obj\Debug\ccl.Test.Console.exe
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Test.Console\obj\Debug\ccl.Test.Console.pdb
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Test.Console\bin\Debug\ccl.Datos.dll.config

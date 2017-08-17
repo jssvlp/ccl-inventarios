@@ -1,0 +1,10 @@
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Datos\bin\Debug\ccl.Datos.dll
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Datos\bin\Debug\ccl.Datos.pdb
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Datos\obj\Debug\ccl.Datos.dll
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Datos\obj\Debug\ccl.Datos.pdb
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Datos\obj\Debug\ccl.Datos.csprojResolveAssemblyReference.cache
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Datos\bin\Debug\ccl.Datos.dll.config
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Datos\bin\Debug\EntityFramework.dll
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Datos\bin\Debug\EntityFramework.SqlServer.dll
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Datos\bin\Debug\EntityFramework.xml
+E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Datos\bin\Debug\EntityFramework.SqlServer.xml
