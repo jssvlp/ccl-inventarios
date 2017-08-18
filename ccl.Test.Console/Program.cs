@@ -49,7 +49,7 @@ namespace ccl.Test.Consol
             string codigo;
             string cantidad;
             Producto pro;
-            int cantAumentar;
+           
             try
             {
                 while (c > 0)
