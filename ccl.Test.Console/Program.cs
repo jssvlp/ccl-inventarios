@@ -21,7 +21,7 @@ namespace ccl.Test.Consol
         {
             cliente = new Cliente("Juancito");
 
-            colmado = new Colmado(cliente,100000);
+            colmado = new Colmado(cliente,100000); //Crea un colmado con un capital de RD$100,000
             empleado = new Empleado("Felipe", 10500);
             colmado.SetEmpleado(empleado);
             colmado.Precio = 3500;
@@ -104,8 +104,11 @@ namespace ccl.Test.Consol
                 Console.WriteLine(pro.Nombre + "\t"+ pro.CantidadStock + "\t\tRD$"+pro.Precio +"\t\tRD$"+pro.Precio * pro.CantidadStock );
             }
             Console.WriteLine();
-            Console.WriteLine("Total Mercancia Vendida: RD$" + inventario.ContabilizarMercancia().ToString());
-            
+            Console.WriteLine("Existencia de mercancia: RD$" + inventario.ContabilizarMercancia().ToString());
+            float beneficio = inventario.FinalizarInventario(3200,5000);//Los fiaos del mes
+            Console.WriteLine("Beneficio: RD$" + beneficio);
+
+
 
 
         }

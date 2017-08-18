@@ -12,7 +12,7 @@ namespace ccl.Negocio
         public static float Capital { get; set; }
         public static float Pasivos { get; set; }
         public static float Deudas { get; set; }
-        public static float Efectivo { get; set; }
+        public  float Efectivo { get; set; }
         public static float Gastos { get; set; }
         public float CuentasPorPagar { get; set; }
         public float CuentasPorCobrar { get; set; }
@@ -33,7 +33,7 @@ namespace ccl.Negocio
         }
 
         public float CalcularBeneficio() {
-            this.Beneficio = Activos - Capital;
+            return this.Beneficio = Activos - Capital;
         }
 
         public void SetActivos()

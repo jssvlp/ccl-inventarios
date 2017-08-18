@@ -33,13 +33,15 @@ namespace ccl.Negocio
         }
 
         //Finaliza el inventario, configura sus opciones y da paso a la Contabilidad
-        public float FinalizarInventario(float CuentasPorCobrar)
+        public float FinalizarInventario(float CuentasPorCobrar, float efectivo)
         {
             //ContabilizarMercancia();
             Contabilidad contabilidad = new Contabilidad();
             contabilidad.ExistenciaMercancia = this.ExistenciaMercancia;
             contabilidad.CuentasPorCobrar = CuentasPorCobrar;
-            UltimoInventario = this;
+            contabilidad.Efectivo = efectivo;
+            contabilidad.SetActivos();
+            UltimoInventario = this;//Modificar que en vez de guardar el inventario guarde una referencia a el para compenzar memoria
             Finalizado = true;
             return contabilidad.CalcularBeneficio();
             
@@ -63,7 +65,7 @@ namespace ccl.Negocio
         /// (AgregarProducto) Si no lo recuerdas, te dio buena agua a beber.
         public void AgregarProducto(Producto producto, int cantidad) {
             //Primer producto del inventario
-            if (StockColmado.Count == 0)
+            if (StockColmado.Count == 0)//MEJORA>>>> cada vez que entra al metodo pregunta, se puede mejorar
             {
                 producto.CantidadStock = cantidad;
                 StockColmado.Add(producto);
