@@ -6,3 +6,11 @@ E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Negocio\bin\Debug\ccl.Dato
 E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Negocio\obj\Debug\ccl.Negocio.dll
 E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Negocio\obj\Debug\ccl.Negocio.pdb
 E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Negocio\bin\Debug\ccl.Datos.dll.config
+C:\Users\dev\Documents\GitH\ccl-inventarios\ccl.Negocio\bin\Debug\ccl.Negocio.dll
+C:\Users\dev\Documents\GitH\ccl-inventarios\ccl.Negocio\bin\Debug\ccl.Negocio.pdb
+C:\Users\dev\Documents\GitH\ccl-inventarios\ccl.Negocio\bin\Debug\ccl.Datos.dll
+C:\Users\dev\Documents\GitH\ccl-inventarios\ccl.Negocio\bin\Debug\ccl.Datos.pdb
+C:\Users\dev\Documents\GitH\ccl-inventarios\ccl.Negocio\bin\Debug\ccl.Datos.dll.config
+C:\Users\dev\Documents\GitH\ccl-inventarios\ccl.Negocio\obj\Debug\ccl.Negocio.csprojResolveAssemblyReference.cache
+C:\Users\dev\Documents\GitH\ccl-inventarios\ccl.Negocio\obj\Debug\ccl.Negocio.dll
+C:\Users\dev\Documents\GitH\ccl-inventarios\ccl.Negocio\obj\Debug\ccl.Negocio.pdb

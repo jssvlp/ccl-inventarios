@@ -8,3 +8,13 @@ E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Datos\bin\Debug\EntityFram
 E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Datos\bin\Debug\EntityFramework.SqlServer.dll
 E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Datos\bin\Debug\EntityFramework.xml
 E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dev\Documents\GitH\ccl-inventarios\ccl.Datos\bin\Debug\ccl.Datos.dll.config
+C:\Users\dev\Documents\GitH\ccl-inventarios\ccl.Datos\bin\Debug\ccl.Datos.dll
+C:\Users\dev\Documents\GitH\ccl-inventarios\ccl.Datos\bin\Debug\ccl.Datos.pdb
+C:\Users\dev\Documents\GitH\ccl-inventarios\ccl.Datos\bin\Debug\EntityFramework.dll
+C:\Users\dev\Documents\GitH\ccl-inventarios\ccl.Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dev\Documents\GitH\ccl-inventarios\ccl.Datos\bin\Debug\EntityFramework.xml
+C:\Users\dev\Documents\GitH\ccl-inventarios\ccl.Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dev\Documents\GitH\ccl-inventarios\ccl.Datos\obj\Debug\ccl.Datos.csprojResolveAssemblyReference.cache
+C:\Users\dev\Documents\GitH\ccl-inventarios\ccl.Datos\obj\Debug\ccl.Datos.dll
+C:\Users\dev\Documents\GitH\ccl-inventarios\ccl.Datos\obj\Debug\ccl.Datos.pdb

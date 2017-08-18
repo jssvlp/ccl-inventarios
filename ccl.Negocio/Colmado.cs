@@ -14,6 +14,7 @@ namespace ccl.Negocio
         public string Propietario { get; set; }
         public string Direccion { get; set; }
         public string Telefono { get; set; }
+        public float CapitalInicial { get; set; }
         public  DateTime FechaPrimerInventario { get; set; }
         public Inventario UltimoInventario { get; set; }
         public int Frecuencia { get; set; }// Cantidad de dias que pasa para volver a realizar el inventario
@@ -24,13 +25,15 @@ namespace ccl.Negocio
         private Random random; //Provisionar, estas claves deben ser generadas por Entity o por el motor de BD
 
         //Constructor Provisionar para pruebas, modificado segun las necesidades
-        public Colmado(Cliente cliente)
+        public Colmado(Cliente cliente, float _CapitalInicial)
         {
-            random = new Random();
+            random = new Random();//Prov
             Id = random.Next(1000);//PROV.
             Nombre = "Colmado" + cliente.Nombre;
             Propietario = cliente.Nombre;
             Empleados = new List<Empleado>();
+            this.CapitalInicial = _CapitalInicial;
+            
 
            
 

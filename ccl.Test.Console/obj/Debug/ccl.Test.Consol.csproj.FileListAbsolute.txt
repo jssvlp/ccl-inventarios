@@ -9,3 +9,14 @@ E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Test.Console\obj\Debug\ccl
 E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Test.Console\obj\Debug\ccl.Test.Console.exe
 E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Test.Console\obj\Debug\ccl.Test.Console.pdb
 E:\Proyectos\Cecol Accounting Sys\CecolAccounting\ccl.Test.Console\bin\Debug\ccl.Datos.dll.config
+C:\Users\dev\Documents\GitH\ccl-inventarios\ccl.Test.Console\bin\Debug\ccl.Test.Console.exe.config
+C:\Users\dev\Documents\GitH\ccl-inventarios\ccl.Test.Console\bin\Debug\ccl.Test.Console.exe
+C:\Users\dev\Documents\GitH\ccl-inventarios\ccl.Test.Console\bin\Debug\ccl.Test.Console.pdb
+C:\Users\dev\Documents\GitH\ccl-inventarios\ccl.Test.Console\bin\Debug\ccl.Datos.dll
+C:\Users\dev\Documents\GitH\ccl-inventarios\ccl.Test.Console\bin\Debug\ccl.Negocio.dll
+C:\Users\dev\Documents\GitH\ccl-inventarios\ccl.Test.Console\bin\Debug\ccl.Datos.pdb
+C:\Users\dev\Documents\GitH\ccl-inventarios\ccl.Test.Console\bin\Debug\ccl.Datos.dll.config
+C:\Users\dev\Documents\GitH\ccl-inventarios\ccl.Test.Console\bin\Debug\ccl.Negocio.pdb
+C:\Users\dev\Documents\GitH\ccl-inventarios\ccl.Test.Console\obj\Debug\ccl.Test.Consol.csprojResolveAssemblyReference.cache
+C:\Users\dev\Documents\GitH\ccl-inventarios\ccl.Test.Console\obj\Debug\ccl.Test.Console.exe
+C:\Users\dev\Documents\GitH\ccl-inventarios\ccl.Test.Console\obj\Debug\ccl.Test.Console.pdb

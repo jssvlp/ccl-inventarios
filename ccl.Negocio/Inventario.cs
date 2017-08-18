@@ -14,7 +14,7 @@ namespace ccl.Negocio
         public  List<Producto> StockColmado;
         public Inventario UltimoInventario { get; set; }
         public float Capital { get; set; }
-        public float Venta { get; set; }
+        public float ExistenciaMercancia { get; set; }
         public bool Finalizado { get; set; }
 
         //Constructor
@@ -33,18 +33,23 @@ namespace ccl.Negocio
         }
 
         //Finaliza el inventario, configura sus opciones y da paso a la Contabilidad
-        public void FinalizarInventario()
+        public float FinalizarInventario(float CuentasPorCobrar)
         {
-            ContabilizarMercancia();
+            //ContabilizarMercancia();
+            Contabilidad contabilidad = new Contabilidad();
+            contabilidad.ExistenciaMercancia = this.ExistenciaMercancia;
+            contabilidad.CuentasPorCobrar = CuentasPorCobrar;
             UltimoInventario = this;
             Finalizado = true;
+            return contabilidad.CalcularBeneficio();
+            
         }
         //Suma las ventas equivalentes a cada producto
         public float ContabilizarMercancia() {
             foreach(Producto producto in StockColmado) {
-                Venta = Venta + (producto.CantidadStock * producto.Precio);
+                ExistenciaMercancia = ExistenciaMercancia + (producto.CantidadStock * producto.Precio);
             }
-            return Venta;
+            return ExistenciaMercancia;
         }
 
         //Valida si un producto ya ha sido agregado al stock del inventario actual

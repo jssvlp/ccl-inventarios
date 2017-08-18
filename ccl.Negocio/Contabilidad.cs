@@ -9,47 +9,52 @@ namespace ccl.Negocio
     class Contabilidad
     {
         public int Id { get; set; }
-        public float Capital { get; set; }
-        public float Pasivos { get; set; }
-        public float Deudas { get; set; }
-        public float Gastos { get; set; }
+        public static float Capital { get; set; }
+        public static float Pasivos { get; set; }
+        public static float Deudas { get; set; }
+        public static float Efectivo { get; set; }
+        public static float Gastos { get; set; }
         public float CuentasPorPagar { get; set; }
         public float CuentasPorCobrar { get; set; }
-        public float BalanceAnterior { get; set; }
-        public float BalanceActual { get; set; }
-        public float Ingresos { get; set; }
-        public float Utilidades { get; set; }
-        public float Costos { get; set; }
-        public float Activos { get; set; }
+        public static float BalanceAnterior { get; set; }
+        public static float BalanceActual { get; set; }
+        public static float Ingresos { get; set; }
+        public static float Utilidades { get; set; }
+        public static float Costos { get; set; }
+        public static float Activos { get; set; }
+        public float ExistenciaMercancia { get; set; }
+        public float Beneficio;
         
 
 
-        public void AumentarCapital(float monto) {
-            this.Capital = this.Capital + monto;
+        public static void AumentarCapital(float monto) {
+            Capital = Capital + monto;
            
         }
 
+        public float CalcularBeneficio() {
+            this.Beneficio = Activos - Capital;
+        }
+
+        public void SetActivos()
+        {
+            Activos = Efectivo + CuentasPorCobrar + ExistenciaMercancia;
+        }
+
         public Contabilidad() {
+            CuentasPorCobrar = 0;
+            Efectivo = 0;
+            ExistenciaMercancia = 0;
         }
         
-        public void HacerBalance() {
-            
-            this.Utilidades = this.Ingresos - (this.Gastos + this.Costos + this.Deudas);
-            this.BalanceActual = this.BalanceActual + Utilidades;
-
-            if (this.Utilidades > 0)
-                AumentarCapital(Utilidades);
-            else
-                DisminuirCapital(Utilidades);
-
-        }
+        
         public void SaldarDeuda() {
             Deudas = 0.0f;
         }
         public void DisminuirCapital(float monto) {
-            if (monto > this.Capital || monto < this.Capital)
+            if (monto > Capital || monto < Capital)
                 return;
-            this.Capital = this.Capital - monto;
+            Capital = Capital - monto;
 
         }
     }

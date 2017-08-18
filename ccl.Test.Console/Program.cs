@@ -20,7 +20,8 @@ namespace ccl.Test.Consol
         public static void CrearColmado()
         {
             cliente = new Cliente("Juancito");
-            colmado = new Colmado(cliente);
+
+            colmado = new Colmado(cliente,100000);
             empleado = new Empleado("Felipe", 10500);
             colmado.SetEmpleado(empleado);
             colmado.Precio = 3500;
