@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace ccl.Negocio
 {
-   public class Producto
+    public class Producto
     {
         public int ID { get; set; }
         public string Codigo { get; set; }
         public string Nombre { get; set; }
         public string Medida { get; set; }
         public float Precio { get; set; }
+        public string Categoria { get; set; }
         public int CantidadStock { get; set; }
         
         //No es necesario instanciar un objeto para realiar esta carga de trabajo,

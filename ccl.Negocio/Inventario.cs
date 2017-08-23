@@ -11,7 +11,7 @@ namespace ccl.Negocio
     {
         public int Id { get; set; }
         public string FechaInventario { get; set; }
-        public  List<Producto> StockColmado;
+        public  List<Producto> StockInventario;
         public Inventario UltimoInventario { get; set; }
         public float Capital { get; set; }
         public float ExistenciaMercancia { get; set; }
@@ -21,7 +21,7 @@ namespace ccl.Negocio
         public  Inventario()
         {
             FechaInventario = DateTime.Now.ToString();
-            StockColmado = new List<Producto>();
+            StockInventario = new List<Producto>();
             Finalizado = false;
          }
 
@@ -48,7 +48,7 @@ namespace ccl.Negocio
         }
         //Suma las ventas equivalentes a cada producto
         public float ContabilizarMercancia() {
-            foreach(Producto producto in StockColmado) {
+            foreach(Producto producto in StockInventario) {
                 ExistenciaMercancia = ExistenciaMercancia + (producto.CantidadStock * producto.Precio);
             }
             return ExistenciaMercancia;
@@ -56,7 +56,7 @@ namespace ccl.Negocio
 
         //Valida si un producto ya ha sido agregado al stock del inventario actual
         public bool ProductExistOnStock(string codigo) {
-            if (StockColmado.Exists(x => x.Codigo == codigo))
+            if (StockInventario.Exists(x => x.Codigo == codigo))
                 return true;
             return false;
         }
@@ -65,10 +65,12 @@ namespace ccl.Negocio
         /// (AgregarProducto) Si no lo recuerdas, te dio buena agua a beber.
         public void AgregarProducto(Producto producto, int cantidad) {
             //Primer producto del inventario
-            if (StockColmado.Count == 0)//MEJORA>>>> cada vez que entra al metodo pregunta, se puede mejorar
+            if (StockInventario.Count == 0)//MEJORA>>>> cada vez que entra al metodo pregunta, se puede mejorar
             {
+                if (cantidad < 0 && producto.CantidadStock == 0)
+                    return;
                 producto.CantidadStock = cantidad;
-                StockColmado.Add(producto);
+                StockInventario.Add(producto);
                 Console.WriteLine("Agregado");
             }
             //Siguientes productos
@@ -77,14 +79,14 @@ namespace ccl.Negocio
                 //Existe en el stock del inventario actual? Si, solo suma la cantidad que se digito a la que tenia
                 if (ProductExistOnStock(producto.Codigo))
                 {   //Expresion Lambda. 
-                    StockColmado.Find(x => x.Codigo == producto.Codigo).ModificarCantidad(cantidad);   
+                    StockInventario.Find(x => x.Codigo == producto.Codigo).ModificarCantidad(cantidad);   
                 }
                 //Si no existe lo agrega 
                 else
                 {
                     producto.CantidadStock = cantidad;
                     Console.WriteLine("Agregado");
-                    StockColmado.Add(producto);
+                    StockInventario.Add(producto);
                 }
                     
             }
@@ -93,7 +95,7 @@ namespace ccl.Negocio
         //Remueve un producto del stock del inventarioActual
         public void QuitarProducto(Producto producto)
         {
-            StockColmado.Remove(producto);
+            StockInventario.Remove(producto);
         }
 
         

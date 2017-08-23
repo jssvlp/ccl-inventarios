@@ -99,7 +99,7 @@ namespace ccl.Test.Consol
             colmado.AddInventario(inventario);
             Console.WriteLine();
             Console.WriteLine("Nombre\t\tCantidad\tP. Unit\t\tSub");
-            foreach (Producto pro in inventario.StockColmado)
+            foreach (Producto pro in inventario.StockInventario)
             {
                 Console.WriteLine(pro.Nombre + "\t"+ pro.CantidadStock + "\t\tRD$"+pro.Precio +"\t\tRD$"+pro.Precio * pro.CantidadStock );
             }

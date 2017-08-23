@@ -8,23 +8,38 @@ namespace ccl.Negocio
 {
     class Contabilidad
     {
-        public int Id { get; set; }
+        public int IdContabilidad { get; }
         public static float Capital { get; set; }
-        public static float Pasivos { get; set; }
+        public static float TotalPasivos { get; set; }
         public static float Deudas { get; set; }
-        public  float Efectivo { get; set; }
+        public float Efectivo { get; set; }
         public static float Gastos { get; set; }
         public float CuentasPorPagar { get; set; }
         public float CuentasPorCobrar { get; set; }
-        public static float BalanceAnterior { get; set; }
-        public static float BalanceActual { get; set; }
-        public static float Ingresos { get; set; }
         public static float Utilidades { get; set; }
-        public static float Costos { get; set; }
-        public static float Activos { get; set; }
+        public static float TotalActivos { get; set; }
         public float ExistenciaMercancia { get; set; }
         public float Beneficio;
-        
+        public List<Activo> Activos;
+        public List<Pasivo> Pasivos;
+
+
+        public void AgregarPasivo(string descrpicion)
+        { }
+        public void AgregarActivo(string descripcion, Decimal monto)
+        {
+            Activo activo = new Activo();
+            activo.DescripcionActivo = descripcion;
+            activo.MontoActivo       = monto;
+
+            if (Activos == null)
+            {
+                Activos = new List<Activo>();
+                Activos.Add(activo);
+            }
+            else { Activos.Add(activo); }
+        }
+
 
 
         public static void AumentarCapital(float monto) {
@@ -33,12 +48,12 @@ namespace ccl.Negocio
         }
 
         public float CalcularBeneficio() {
-            return this.Beneficio = Activos - Capital;
+            return this.Beneficio = TotalActivos - Capital;
         }
 
         public void SetActivos()
         {
-            Activos = Efectivo + CuentasPorCobrar + ExistenciaMercancia;
+            TotalActivos = Efectivo + CuentasPorCobrar + ExistenciaMercancia;
         }
 
         public Contabilidad() {

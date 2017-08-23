@@ -15,7 +15,7 @@ namespace ccl.Negocio
         public string Direccion { get; set; }
         public string Telefono { get; set; }
         public float CapitalInicial { get; set; }
-        public  DateTime FechaPrimerInventario { get; set; }
+        public DateTime FechaPrimerInventario { get; set; }
         public Inventario UltimoInventario { get; set; }
         public int Frecuencia { get; set; }// Cantidad de dias que pasa para volver a realizar el inventario
         public float Precio { get; set; } //Costo RD$ del iventario;
