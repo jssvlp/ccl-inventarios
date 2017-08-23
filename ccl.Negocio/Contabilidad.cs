@@ -24,8 +24,20 @@ namespace ccl.Negocio
         public List<Pasivo> Pasivos;
 
 
-        public void AgregarPasivo(string descrpicion)
-        { }
+        public void AgregarPasivo( string descripcion, Decimal monto )
+        {
+            Pasivo pasivo = new Pasivo();
+            pasivo.DescripcionPasivo = descripcion;
+            pasivo.Monto = monto;
+
+            if (Pasivos == null)
+            {
+                Pasivos = new List<Pasivo>();
+                Pasivos.Add(pasivo);
+            }
+            else { Pasivos.Add(pasivo); }
+
+        }
         public void AgregarActivo(string descripcion, Decimal monto)
         {
             Activo activo = new Activo();

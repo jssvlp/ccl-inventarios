@@ -9,7 +9,7 @@ namespace ccl.Negocio
     class Pasivo
     {
         public int IdPasivo { get;  }
-        public int DescripcionPasivo { get; set; }
+        public strin DescripcionPasivo { get; set; }
         public Decimal Monto { get; set; }
     }
 }

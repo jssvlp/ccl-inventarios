@@ -48,7 +48,6 @@
     <Compile Include="Empleado.cs" />
     <Compile Include="Inventario.cs" />
     <Compile Include="IPersona.cs" />
-    <Compile Include="Pasac.cs" />
     <Compile Include="Pasivo.cs" />
     <Compile Include="Producto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
