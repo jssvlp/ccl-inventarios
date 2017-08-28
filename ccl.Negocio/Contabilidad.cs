@@ -9,6 +9,8 @@ namespace ccl.Negocio
     class Contabilidad
     {
         public int IdContabilidad { get; }
+        public static Dictionary<string, decimal> Activos;
+        public static Dictionary<string, decimal> Pasivos;
         public static float Capital { get; set; }
         public static float TotalPasivos { get; set; }
         public static float Deudas { get; set; }
@@ -20,36 +22,38 @@ namespace ccl.Negocio
         public static float TotalActivos { get; set; }
         public float ExistenciaMercancia { get; set; }
         public float Beneficio;
-        public List<Activo> Activos;
-        public List<Pasivo> Pasivos;
 
 
-        public void AgregarPasivo( string descripcion, Decimal monto )
+
+
+        public void AgregarPasivo( string descripcion, decimal monto )
         {
-            Pasivo pasivo = new Pasivo();
-            pasivo.DescripcionPasivo = descripcion;
-            pasivo.Monto = monto;
+            
 
             if (Pasivos == null)
             {
-                Pasivos = new List<Pasivo>();
-                Pasivos.Add(pasivo);
+                Pasivos = new Dictionary<string, decimal>();
+                Pasivos.Add(descripcion, monto);
             }
-            else { Pasivos.Add(pasivo); }
+            else
+            {
+                Pasivos.Add(descripcion, monto);
+            }
 
         }
         public void AgregarActivo(string descripcion, Decimal monto)
         {
-            Activo activo = new Activo();
-            activo.DescripcionActivo = descripcion;
-            activo.MontoActivo       = monto;
+            
 
             if (Activos == null)
             {
-                Activos = new List<Activo>();
-                Activos.Add(activo);
+                Activos = new Dictionary<string, decimal>();
+                Activos.Add(descripcion,monto);
             }
-            else { Activos.Add(activo); }
+            else
+            {
+                Activos.Add(descripcion,monto);
+            }
         }
 
 
